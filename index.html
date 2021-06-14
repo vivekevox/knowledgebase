@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>knowledgebase | Evoseedbox</title>
+    <link rel="shortcut icon" type="image/png" href="https://via.placeholder.com/20.png" >
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/uikit.js"></script>
+</head>
+
+<body>
+
+<header>
+	<div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+	  <nav class="uk-navbar-container">
+	    <div class="uk-container">
+	      <div data-uk-navbar>
+	        <div class="uk-navbar-left">
+	          <a class="uk-navbar-item uk-logo uk-visible@m" href="https://wiki.evoseedbox.com/"><img src="img/evoseedbox-logo-web.png" width="200"></a>
+	          <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span
+	              data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Docs</span></a>
+	          <ul class="uk-navbar-nav uk-visible@m">
+	            <li class="uk-active"><a href="https://evoseedbox.com/">Home</a></li>
+	           <!--  <li ><a href="blog.html">Blog</a></li> -->
+	            <li ><a href="https://client.evoseedbox.com/submitticket.php">Open Ticket</a></li>
+	           <!--  <li >
+	              <a href="#">Changelogs</a>
+	              <div class="uk-navbar-dropdown">
+	                <ul class="uk-nav uk-navbar-dropdown-nav">
+	                  <li><a href="changelog-timeline.html">Timeline Style</a></li>
+	                  <li><a href="changelog-posts.html">Post Style</a></li>
+	                </ul>
+	              </div>            
+	            </li> -->
+	          </ul>
+	        </div>
+	        <div class="uk-navbar-center uk-hidden@m">
+	          <a class="uk-navbar-item uk-logo" href="index.html">Docs</a>
+	        </div>
+	        <div class="uk-navbar-right">
+	          <div>
+	            <a id="search-navbar-toggle" class="uk-navbar-toggle" data-uk-search-icon href="#"></a>
+	            <div class="uk-background-default uk-border-rounded"
+	              data-uk-drop="mode: click; pos: left-center; offset: 0">
+	              <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+	                <input id="search-navbar" class="uk-search-input" type="search" placeholder="Search for answers"
+	                  autofocus autocomplete="off" data-minchars="1" data-maxitems="30">
+	              </form>
+	            </div>
+	          </div>
+	          <ul class="uk-navbar-nav uk-visible@m">
+	            <li>
+	              <div class="uk-navbar-item">
+	                <a class="uk-button uk-button-primary-outline" href="https://client.evoseedbox.com/clientarea.php">Client Area</a>
+	              </div>
+	            </li>
+	            <li>
+	              <div class="uk-navbar-item">
+	                <a class="uk-button uk-button-success" href="https://evoseedbox.com/contact-us/">Contact</a>
+	              </div>
+	            </li>
+	          </ul>
+	          <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span
+	              data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+	        </div>
+	      </div>
+	    </div>
+	  </nav>
+	</div>
+	<div class="uk-section section-hero uk-position-relative" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+		<div class="uk-container uk-container-small">
+			<p class="hero-image uk-text-center"><img src="img/saas-4.png" alt="Hero"></p>
+			<h1 class="uk-heading-medium uk-text-center uk-margin-remove-top">How can we help you?</h1>
+			<p class="uk-text-lead uk-text-center">Search or browse in depth articles and videos on everything on our awesome
+				product, from basic setup to advanced features and everyday use</p>
+			<div class="hero-search">
+				<div class="uk-position-relative">
+					<form class="uk-search uk-search-default uk-width-1-1" name="search-hero" onsubmit="return false;">
+						<span class="uk-search-icon-flip" data-uk-search-icon></span>
+						<input id="search-hero" class="uk-search-input uk-box-shadow-large" type="search"
+							placeholder="Search for answers" autocomplete="off" data-minchars="1" data-maxitems="30">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="uk-section">
+	<div class="uk-container">
+		<h2 class="uk-h1 uk-text-center">Browse Topics</h2>
+		<p class="uk-text-lead uk-text-center">Chose an option that you need help with or search above</p>
+		<div class="uk-child-width-1-3@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid>
+			<div>
+				<div
+					class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+					<a class="uk-position-cover" href="https://wiki.evoseedbox.com/"></a>
+					<span data-uk-icon="icon: cog; ratio: 3.4" class=""></span>
+					<h3 class="uk-card-title uk-margin">Getting Started</h3>
+					<p>Get started fast with installation and theme setup instructions</p>
+				</div>
+			</div>
+			<div>
+				<div
+					class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+					<a class="uk-position-cover" href="https://wiki.evoseedbox.com/how-to-transfer-data-from-the-previous-provider-to-your-seedbox-via-ftp"></a>
+					<span data-uk-icon="icon: settings; ratio: 3.4" class=""></span>
+					<h3 class="uk-card-title uk-margin">Basics of Seedbox</h3>
+					<p>Lean about all the seedbox, features and how to use them</p>
+				</div>
+			</div>
+			<div>
+				<div
+					class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+					<a class="uk-position-cover" href="https://wiki.evoseedbox.com/owncloud"></a>
+					<span data-uk-icon="icon: code; ratio: 3.4" class=""></span>
+					<h3 class="uk-card-title uk-margin">App Tutorials</h3>
+					<p>Get help or tailor the app tutorials to your specific requirements</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="uk-section section-featured">
+	<div class="uk-container uk-container-small">
+		<h2 class="uk-h1 uk-text-center">Popular Articles</h2>
+		<p class="uk-text-center uk-text-lead">Selected featured articles to get you started fast</p>
+		<ul class="uk-list uk-list-large uk-margin-medium-top">
+			<li><a class="uk-box-shadow-hover-small" href="https://wiki.evoseedbox.com/">Basics of getting started</a></li>
+			<li><a class="uk-box-shadow-hover-small" href="https://wiki.evoseedbox.com/rutorrent-getting-started">Rutorrent getting started</a></li>
+			<li><a class="uk-box-shadow-hover-small" href="https://wiki.evoseedbox.com/open-vpn-connect">Open VPN connect</a></li>
+			<li><a class="uk-box-shadow-hover-small" href="https://wiki.evoseedbox.com/how-to-transfer-files-from-your-seedbox-to-your-google-drive">How to transfer files from your seedbox to your Google Drive?</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="uk-section section-videos">
+	<div class="uk-container uk-container-small">
+		<h2 class="uk-h1 uk-text-center">Video Tutorials</h2>
+		<p class="uk-text-lead uk-text-center">Watch screencasts to get you started fast with product</p>
+		<div class="uk-child-width-1-2@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid >
+			<div>
+				<div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium uk-card-body uk-inline border-radius-large border-xlight">
+					<a class="uk-position-cover" href="https://wiki.evoseedbox.com/how-to-use-btsync-with-your-seedbox" data-caption="Getting Started"></a>
+					<span data-uk-icon="icon: play-circle; ratio: 3.4" class=""></span>
+					<h3 class="uk-card-title uk-margin">App Tutorials</h3>
+					<p>How to use Btsync with your Seedbox?</p>
+				</div>
+			</div>
+			<div>
+				<div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium uk-card-body uk-inline border-radius-large border-xlight">
+					<a class="uk-position-cover" href="https://wiki.evoseedbox.com/how-to-connect-jellyfin-with-your-seedbox" data-caption="What is Figma"></a>
+					<span data-uk-icon="icon: play-circle; ratio: 3.4" class=""></span>
+					<h3 class="uk-card-title uk-margin">App Tutorials</h3>
+					<p>How to connect Jellyfin with your Seedbox?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="uk-section">
+	<div class="uk-container uk-container-small">
+		<h2 class="uk-h1 uk-text-center">Frequently asked questions</h2>
+		<p class="uk-text-center uk-text-lead">Find quick answers to frequent pre-sale questions asked by customers</p>
+		<ul class="uk-margin-medium-top" data-uk-accordion="multiple: true">
+			<li>
+				<a class="uk-accordion-title uk-box-shadow-hover-small" href="#">How to contact EvoSeedbox customer care?</a>
+				<div class="article-content uk-accordion-content link-primary">
+					<p>To contact us, you can email us on our official id. Our customer executives remain active 24 hours to help you out.</p>
+					
+				</div>
+			</li>
+			<li>
+				<a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Does Evoseedbox offer a budget friendly Seedbox subscription plan?</a>
+				<div class="article-content uk-accordion-content link-primary">
+					<p>With Evo Seedbox, it is fun to experience a personal high speeds server that is not like normal web hosting. To date, we have worked with 5000+ customers and have successfully met their needs. With EvoSeedbox you can experience 20+ different types of applications. We are a team of the terrific trio that aims to offer Linux seedbox to our clients. Our premium network plans start from $5 per month to $26 per month. Furthermore, we are best to stand by you with 24×7 customer care services. Technical issues can take place anytime. With the EvoSeedbox activity team, you can expect to talk to a real person in no time.</p>
+					
+				</div>
+			</li>
+			<li>
+				<a class="uk-accordion-title uk-box-shadow-hover-small" href="#">What is the subscription plan for Box and Plex?</a>
+				<div class="article-content uk-accordion-content link-primary">
+					
+					<p>EvoSeedbox is highly preferred by the users as we provide affordable free torrent seedbox with box+Plex plans. With us, you can enjoy 2001 GB HDD for only $15 a month. Next, we offer 4001 GB HDD at $30 per month. Afterward, you can pay $45 per month to enjoy 6001 GB HDD. In the end, our highest offer is 8001 GB at $60 a month. For all the packages, our team members aim to offer support as required. Therefore, if you want to enjoy the fun of a private server hire us for an amazing seedbox setup.</p>
+					
+					
+				</div>
+			</li>
+			<li>
+				<a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Why EvoSeedbox is the best premium seedbox?</a>
+				<div class="article-content uk-accordion-content link-primary">
+					<p>EvoSeedbox has a highly secured data center, more than enough disk space for your online activity  making sure we tick all the following features such as,
+				<ul style="list-style-type:disc">
+					<li>Pocket-friendly budget</li>
+					<li>24X7 customer care support</li>
+					<li>Quick outcome</li>
+					<li>Money back policy</li>
+					<li>Massive bandwidth capacity</li>
+					<li>First-class streaming experience</li>
+					<li>Quick access option</li>
+				</ul>
+
+
+                   </p>
+				</div>
+			</li>
+			<li>
+				<a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Do you provide customization services
+					for your items?</a>
+				<div class="article-content uk-accordion-content link-primary">
+					<p>Item support does not include services to modify or extend the item beyond the original features,
+						style and functionality described on the item page.</p>
+					<p>For customization services that will help you tailor the item to your specific requirements, please <a href="#">contact us</a> to see if we are available to offer paid customization service or check out service
+						providers on <a href="https://studio.envato.com/">Envato Studio</a>.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- <div class="uk-section section-team">
+	<div class="uk-container uk-container-expand">
+		<h2 class="uk-h1 uk-text-center">We are here to help</h2>
+		<p class="uk-text-lead uk-text-center">Our team is just an email away ready to answer your questions</p>
+		<div class="uk-margin-medium-top uk-grid-small uk-flex-center uk-text-center uk-margin-medium-top" data-uk-grid>
+			<div>
+				<div class="uk-card">
+					<img class="uk-border-circle" src="https://via.placeholder.com/172" alt="Evan Wells" />
+					<h5 class="uk-margin-remove-bottom uk-margin-top">Evan Wells</h5>
+					<p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">Support</p>
+				</div>
+			</div>
+			<div>
+				<div class="uk-card">
+					<img class="uk-border-circle" src="https://via.placeholder.com/172" alt="John Brown" />
+					<h5 class="uk-margin-remove-bottom uk-margin-top">John Brown</h5>
+					<p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">Support</p>
+				</div>
+			</div>
+			<div>
+				<div class="uk-card">
+					<img class="uk-border-circle" src="https://via.placeholder.com/172" alt="Sara Galen" />
+					<h5 class="uk-margin-remove-bottom uk-margin-top">Sara Galen</h5>
+					<p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">Lead Developer</p>
+				</div>
+			</div>
+			<div>
+				<div class="uk-card">
+					<img class="uk-border-circle" src="https://via.placeholder.com/172" alt="Alex Koch" />
+					<h5 class="uk-margin-remove-bottom uk-margin-top">Alex Koch</h5>
+					<p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">Design Engineer</p>
+				</div>
+			</div>
+			<div>
+				<div class="uk-card">
+					<img class="uk-border-circle" src="https://via.placeholder.com/172" alt="Tom Farrell" />
+					<h5 class="uk-margin-remove-bottom uk-margin-top">Tom Farrell</h5>
+					<p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">Developer</p>
+				</div>
+			</div>
+			<div>
+				<div class="uk-card">
+					<img class="uk-border-circle" src="https://via.placeholder.com/172" alt="Daniel Shultz" />
+					<h5 class="uk-margin-remove-bottom uk-margin-top">Daniel Shultz</h5>
+					<p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">Developer</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<div class="uk-section uk-text-center">
+	<div class="uk-container uk-container-small">
+		<div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+			<h2 class="uk-h1 uk-margin-bottom">Didn't find an answer?</h2>
+			<p class="uk-text-lead uk-text-center">Get in touch with us for details on setup and additional custom services pricing</p>
+			<a class="uk-button uk-button-primary uk-button-large uk-margin-medium-top" href="https://evoseedbox.com/contact-us/">Contact Us</a>
+		</div>
+	</div>
+</div>
+
+<div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+  <div class="uk-offcanvas-bar">
+    <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+    <h5 class="uk-margin-top">Getting Started</h5>
+    <ul class="uk-nav uk-nav-default doc-nav">
+      <li class="uk-active"><a href="doc.html">Template setup</a></li>
+      <li><a href="doc.html">Basic theme setup</a></li>
+      <li><a href="doc.html">Navigation bar</a></li>
+      <li><a href="doc.html">Footer options</a></li>
+      <li><a href="doc.html">Creating your first post</a></li>
+      <li><a href="doc.html">Creating docs posts</a></li>
+      <li><a href="doc.html">Enabling comments</a></li>
+      <li><a href="doc.html">Google Analytics</a></li>
+    </ul>
+    <h5 class="uk-margin-top">Product Features</h5>
+    <ul class="uk-nav uk-nav-default doc-nav">
+      <li><a href="doc.html">Hero page header</a></li>
+      <li><a href="doc.html">Category boxes section</a></li>
+      <li><a href="doc.html">Fearured docs section</a></li>
+      <li><a href="doc.html">Video lightbox boxes section</a></li>
+      <li><a href="doc.html">Frequently asked questions section</a></li>
+      <li><a href="doc.html">Team members section</a></li>
+      <li><a href="doc.html">Call to action section</a></li>
+      <li><a href="doc.html">Creating a changelog</a></li>
+      <li><a href="doc.html">Contact form</a></li>
+      <li><a href="doc.html">Adding media to post and doc content</a></li>
+      <li><a href="doc.html">Adding table of contents to docs</a></li>
+      <li><a href="doc.html">Adding alerts to content</a></li>
+    </ul>
+    <h5 class="uk-margin-top">Customization</h5>
+    <ul class="uk-nav uk-nav-default doc-nav">
+      <li><a href="doc.html">Translation</a></li>
+      <li><a href="doc.html">Customization</a></li>
+      <li><a href="doc.html">Development</a></li>
+      <li><a href="doc.html">Sources and credits</a></li>
+    </ul>
+    <h5 class="uk-margin-top">Help</h5>
+    <ul class="uk-nav uk-nav-default doc-nav">
+      <li><a href="doc.html">Contacting support</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+  <div class="uk-offcanvas-bar">
+    <a class="uk-logo" href="index.html">Docs</a>
+    <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+    <ul class="uk-nav uk-nav-primary uk-nav-offcanvas uk-margin-top">
+      <li class="uk-active"><a href="index.html">Home</a></li>
+      <li ><a href="doc.html">Docs</a></li>
+      <li ><a href="blog.html">Blog</a></li>
+      <li ><a href="contact.html">Contact</a></li>
+      <li>
+        <div class="uk-navbar-item"><a class="uk-button uk-button-success" href="contact.html">Contact</a></div>
+      </li>
+    </ul>
+    <div class="uk-margin-top uk-text-center">
+      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center">
+        <div>
+          <a href="https://twitter.com/" data-uk-icon="icon: twitter" class="uk-icon-link" target="_blank"></a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" class="uk-icon-link" target="_blank"></a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/" data-uk-icon="icon: instagram" class="uk-icon-link" target="_blank"></a>
+        </div>
+        <div>
+          <a href="https://vimeo.com/" data-uk-icon="icon: vimeo" class="uk-icon-link" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="uk-section uk-text-center uk-text-muted">
+	<div class="uk-container uk-container-small">
+		<div>
+			<ul class="uk-subnav uk-flex-center">
+				<li><a href="https://evoseedbox.com/">Home</a></li>
+				<li><a href="https://client.evoseedbox.com/submitticket.php">Support</a></li>
+				<li><a href="https://evoseedbox.com/contact-us/">Contact</a></li>
+			</ul>
+		</div>
+		<div class="uk-margin-medium">
+			<div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center">
+				
+				<div>
+					<a href="https://www.facebook.com/evoseedbox/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon"
+						target="_blank"></a>
+				</div>
+				<div class="uk-first-column">
+					<a href="https://twitter.com/evoseedbox" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/channel/UCGcw5Bt0cVpnDDqrOFCBjQg?reload=9&view_as=subscriber" data-uk-icon="icon: youtube" class="uk-icon-link uk-icon"
+						target="_blank"></a>
+				</div>
+				
+			</div>
+		</div>
+		<div class="uk-margin-medium uk-text-small copyright link-secondary">© 2021 Evoseedbox | All rights reserved. By Evoseedbox Created with ❤️</div>
+	</div>
+</footer>
+
+<script src="js/awesomplete.js"></script>
+<script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
