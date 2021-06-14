@@ -9,11 +9,19 @@
   	var inputNavbar = document.getElementById("search-navbar");
 
     var list = [
-          { label: "How do I enable payment gateway?", 					        value: "doc.html" },
-          { label: "What happens if I clear cache?", 						        value: "doc.html" },
-          { label: "Which payment methods do you offer?", 				      value: "doc.html" },
-          { label: "How long does it take to propagate DNS settings?", 	value: "doc.html" },
-          { label: "How can I force SSL certificate?", 					        value: "doc.html" }
+          { label: "Basics of getting started", 					              value: "https://wiki.evoseedbox.com/" },
+          { label: "Login details", 						                        value: "https://wiki.evoseedbox.com/login-details" },
+          { label: "Login Rutorrent", 				                          value: "https://wiki.evoseedbox.com/login-rutorrent" },
+          { label: "Using Electorrent", 	                              value: "https://wiki.evoseedbox.com/using-electorrent" },
+          { label: "FTP Credentials", 					                        value: "https://wiki.evoseedbox.com/ftp-credentials" },
+          { label: "FTP Credentials",                                   value: "https://wiki.evoseedbox.com/ftp-credentials" },
+          { label: "FTP Credentials",                                   value: "https://wiki.evoseedbox.com/ftp-credentials" },
+          { label: "FTP Credentials",                                   value: "https://wiki.evoseedbox.com/ftp-credentials" },
+          { label: "FTP Credentials",                                   value: "https://wiki.evoseedbox.com/ftp-credentials" },
+          { label: "FTP Credentials",                                   value: "https://wiki.evoseedbox.com/ftp-credentials" },
+          { label: "FTP Credentials",                                   value: "https://wiki.evoseedbox.com/ftp-credentials" },
+          { label: "FTP Credentials",                                   value: "https://wiki.evoseedbox.com/ftp-credentials" },
+          { label: "FTP Credentials",                                   value: "https://wiki.evoseedbox.com/ftp-credentials" },
         ];
 
     if (inputHero) {
