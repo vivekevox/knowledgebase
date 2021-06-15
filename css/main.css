@@ -4519,12 +4519,12 @@ select.uk-form-width-xsmall {
 
 .awesomplete li:hover mark {
   background: inherit;
-  color: #05c896;
+  color: #0f66dc;
 }
 
 .awesomplete li[aria-selected="true"] mark {
   background: inherit;
-  color: #05c896;
+  color: #0f66dc;
 }
 
 .awesomplete > ul {
@@ -4556,12 +4556,12 @@ select.uk-form-width-xsmall {
 
 .awesomplete > ul > li:hover {
   background: #f8f8f8;
-  color: #05c896;
+  color: #0f66dc;
 }
 
 .awesomplete > ul > li[aria-selected="true"] {
   background: #f8f8f8;
-  color: #05c896;
+  color: #0f66dc;
 }
 
 .uk-search-navbar .awesomplete > ul {
@@ -5002,7 +5002,7 @@ ul.uk-nav-sub {
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle:focus,
 .uk-navbar-toggle.uk-open {
-  color: #05c896;
+  color: #0f66dc;
   outline: none;
   text-decoration: none;
 }
