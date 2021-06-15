@@ -5868,7 +5868,7 @@ ul.uk-nav-sub {
 /* Hover + Focus */
 .uk-accordion-title:hover,
 .uk-accordion-title:focus {
-  color: #05c896;
+  color: #0f66dc;
   text-decoration: none;
   outline: none;
 }
