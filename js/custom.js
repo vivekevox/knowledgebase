@@ -27,7 +27,7 @@
           { label: "Creating an archive with ruTorrent",                value: "https://wiki.evoseedbox.com/creating-an-archive-with-rutorrent" },
           { label: "Adding torrent to seedbox",                         value: "https://wiki.evoseedbox.com/adding-torrent-to-seedbox" },
           { label: "Using watch folder(large torrents)",                value: "https://wiki.evoseedbox.com/using-watch-folderlarge-torrents" },
-          { label: "Rutorrent getting started",                         value: "https://wiki.evoseedbox.com/rutorrent-getting-started" },
+          { label: "Extracting an archive with ruTorrent",              value: "https://wiki.evoseedbox.com/extracting-an-archive-with-rutorrent" },
           { label: "Rutorrent getting started",                         value: "https://wiki.evoseedbox.com/rutorrent-getting-started" },
           { label: "Rutorrent getting started",                         value: "https://wiki.evoseedbox.com/rutorrent-getting-started" },
           { label: "Rutorrent getting started",                         value: "https://wiki.evoseedbox.com/rutorrent-getting-started" },
